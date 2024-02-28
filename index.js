@@ -15,8 +15,8 @@ let object = {
 }
 
 if (number > 1){
-    console.log(`The result is ${eval(`${a} ${b} ${c}`)}`)
-    alert(`The result is ${eval(`${a} ${b} ${c}`)}`)
+    console.log(`The result is ${a} ${c} ${b}`)
+    alert(`The result is ${eval(`${a} ${c} ${b}`)}`)
 }
 else{
     c = object[c]
